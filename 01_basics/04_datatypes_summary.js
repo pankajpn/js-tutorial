@@ -27,6 +27,39 @@ console.log(typeof myFunction) // function
 console.log(typeof id) // symbol 
 
 
+// ++++++++++++++++++++++++++++++++
+
+// Memory -> Stack, Heap 
+// primitive types -> Stack
+// non primitives -> heap 
+
+let myYoutubeName = "Pankaj"
+let anotherName = myYoutubeName
+
+anotherName = "chai aur code"
+
+console.log(myYoutubeName)
+console.log(anotherName)
+
+let user = {
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+
+console.log(user)
+
+let user2 = user
+
+user2.email = "user2@google.com"
+
+//value change in both
+console.log(user)
+console.log(user2)
+
+
+
+
+
 
 
 
